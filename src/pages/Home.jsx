@@ -26,7 +26,7 @@ const Home = () => {
                             <div className="flex flex-wrap gap-4">
                                 <Link
                                     to="/projects"
-                                    className="inline-flex items-center px-6 py-3 bg-theme text-white font-medium rounded-md hover:bg-blue-g00 transition-colors"
+                                    className="inline-flex items-center px-6 py-3 bg-theme text-white font-medium rounded-md hover:bg-blue-400 transition-colors"
                                 >
                                     View My Work
                                     <Icon icon="tabler:arrow-right" width="18" height="18" className="ml-2" />

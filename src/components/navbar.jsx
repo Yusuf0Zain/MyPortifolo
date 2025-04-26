@@ -24,7 +24,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="sticky top-0 z-50 bg-amber-50">
+        <nav className="sticky top-0 z-50 bg-amber-50 ">
             <div className="lg:w-7xl mx-auto px-4 sm:px-6 lg:px-8 rounded-b-xl text-shadow-black">
                 {/* 2. Add Shadow */}
 
@@ -46,7 +46,7 @@ const Navbar = () => {
                                 to={link.path}
                                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${location.pathname === link.path
                                     ? "text-theme"
-                                    : "text-darktheme hover:text-theme2"
+                                    : "text-darktheme hover:text-theme2 hover:scale-120"
                                     }`}
                             >
                                 {link.name}

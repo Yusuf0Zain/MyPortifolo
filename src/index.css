@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-theme: #53c1de;
+  --color-theme2: #c42c35;
+  --color-darktheme: #3c4048;
+
+}
+
+:root {
+  font-family: 'Lalezar', cursive;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.348);
+  opacity: 1;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: url('./assets/sr2f355c385ebd2.gif') no-repeat center center fixed;
+  background-size: cover;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
